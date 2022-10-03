@@ -1,5 +1,5 @@
 # Project 1
-**Name:** 余卓阳 (Yu Zhuoyang)
+**Name:** 余卓阳 (Yu Zhuoyang)  
 **SID:** 12112721
 
 ## Part 1 - Analysis
