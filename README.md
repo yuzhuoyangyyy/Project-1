@@ -4,8 +4,9 @@
 
 ## Part 1 - Analysis
 
-To avoid having too many 0s, we can store only significant digits, and use the number of significant digits before the decimal point to record the position of the decimal point. E.g. 12300: {1,2,3},5; 0.0123: {1,2,3},-1
+To avoid having too many 0s, we can store only significant digits, and use the number of significant digits before the decimal point to record the position of the decimal point. 
 
+E.g. 12300: {1,2,3},5; 0.0123: {1,2,3},-1  
 0.12 * 3.4 = {1,2},0 * {3,4},1 = {0, 1\*3, 2\*3+1\*4, 2*4},0+1 = {0,3,10,8},1 = {0,4,0,8},1 = 0.408
 
 ## Part 2 - Code
